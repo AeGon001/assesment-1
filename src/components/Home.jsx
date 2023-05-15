@@ -13,6 +13,7 @@ const Home = () => {
     .catch((error)=>console.log(error))
     },[])
 
+
   return (
     <div>
         <br/><br/><br/>
@@ -22,8 +23,8 @@ const Home = () => {
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Name</TableCell>
-                        <TableCell>Email</TableCell>
+                        <TableCell>ID</TableCell>
+                        <TableCell>TITTLE</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
